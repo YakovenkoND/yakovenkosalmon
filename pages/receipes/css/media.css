@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+  .name-logo {
+    display: none; }
+  .block-product {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px; } }
+
+@media (max-width: 992px) {
+  .nav-list {
+    display: none; }
+  .hamburger-menu {
+    display: block; }
+  .first__item {
+    margin-top: 50px; }
+  .block-product {
+    grid-template-columns: repeat(2, 1fr); }
+  .footer-social-img {
+    margin-right: 10px;
+    margin-bottom: 10px; }
+  .footer-social {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 830px) {
+  .logo {
+    display: none; }
+  .nav-list {
+    display: none; }
+  .hamburger-menu {
+    display: block; }
+  .first__item {
+    margin-top: 50px; } }
+
+@media (max-width: 767px) {
+  .cols-inner {
+    grid-gap: 30px; }
+  .title-h3 {
+    font-size: 30px; }
+  .footer-inner {
+    grid-gap: 30px; }
+  .kosher-name, .logo-name {
+    display: none; } }
+
+@media (max-width: 480px) {
+  .footer-inner {
+    grid-gap: 15px; }
+  .footer-logo {
+    margin-right: 10px; }
+  .copyright {
+    font-size: 12px; } }
+salmon/pages/receipes/#source/media.scss */
+  .footer-social-img {
+    margin-right: 10px;
+    margin-bottom: 10px; }
+  /* line 27, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .footer-social {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 830px) {
+  /* line 33, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .logo {
+    display: none; }
+  /* line 36, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .nav-list {
+    display: none; }
+  /* line 39, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .hamburger-menu {
+    display: block; }
+  /* line 42, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .first__item {
+    margin-top: 50px; } }
+
+@media (max-width: 767px) {
+  /* line 47, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .cols-inner {
+    grid-gap: 30px; }
+  /* line 50, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .title-h3 {
+    font-size: 30px; }
+  /* line 53, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .footer-inner {
+    grid-gap: 30px; }
+  /* line 56, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .kosher-name, .logo-name {
+    display: none; } }
+
+@media (max-width: 480px) {
+  /* line 61, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .footer-inner {
+    grid-gap: 15px; }
+  /* line 64, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .footer-logo {
+    margin-right: 10px; }
+  /* line 67, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/media.scss */
+  .copyright {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,543 @@
+// Colors
+$blue:#00519C;
+$white:#fff;
+$black:#000;
+$ice:#EDF8FF;
+// /Colors
+
+// Common
+.title-h3{
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  padding: 50px 0 12px 0;
+  color: $blue;
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
+a.btn-1{
+  display: block;
+  background-color: $blue;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 11px 34px;
+  border-radius: 23px;
+  cursor: pointer;
+  color: $white;
+  transition: 0.3s;
+  text-decoration: none;
+  &:hover{
+    background-color: #fff;
+    color: $blue;
+    transform: translateY(-3px);
+  }
+}
+.subtitle-h3{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $black;
+  margin-bottom: 25px;
+  z-index: 10;
+}
+.wrapper{
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+// /Common
+
+// Header
+.header{
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 35px;
+}
+.nav-list{
+  display: flex;
+  justify-content: center;
+  &__item{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    transition: 0.3s;
+    &:first-child{
+      margin-left: 0;
+    }
+    &:hover{
+      transform: translateY(-1px);
+    }
+  }
+}
+.nav-link{
+  color: $blue;
+  text-decoration: none;
+}
+.first-page{
+  color: $blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+.logo-text h1{
+  font-size: 28px;
+  line-height: 27px;
+  font-weight: 900;
+}
+.h1-subtitle{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.tagline{
+  margin-top: 150px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+}
+// /Header
+// Main-products
+.main-products{
+  background-image: url(../img/ice_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.block-product{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:30px;
+}
+.block-product__item{
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 35, 126, 0.06);
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  &:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.13), 0 10px 10px rgba(0,0,0,0.01);
+
+  }
+}
+.product-name{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #00519C;
+  max-width: 210px;
+}
+.btn-view{
+  margin-top: 35px;
+}
+// /Main-products
+// Our brochures
+.brochures{
+  text-align: center;
+  padding-bottom: 70px;
+}
+.vector{
+  position: relative;
+  display: inline-block;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.vector::before,
+.vector::after{
+  content: "";
+  position: absolute;
+  background-image: url(../img/Vector.png);
+  display: block;
+  width: 51px;
+  height: 6px;
+  top: 73px;
+}
+.vector::before{
+  right: 0;
+}
+.vector::after {
+  left: 0;
+}
+.brochures-inner{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 30px;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-2{
+  display: block;
+  border: 1px solid #1C75B7;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: $blue;
+  padding: 12px 20px 8px 16px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s;
+  &::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/book.png);
+    display: block;
+    width: 32px;
+    height: 25px;
+    display: flex;
+    top: 10px;
+  }
+}
+.btn-text{
+  margin-left: 50px;
+}
+// /Our brochures
+
+// quality
+.quality{
+  background-color: $ice;
+  margin-bottom: 40px;
+}
+.quality-inner{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 60px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+
+
+}
+.quality-inner__text{
+  grid-column: 3/5;
+}
+.quality-img__item{
+  display: flex;
+  flex-direction:column ;
+}
+.quality-inner__img{
+  display: flex;
+}
+.asc-img{
+  width: 181px;
+  height: 83px;
+}
+.msc-img{
+  width: 181px;
+  height: 83px;
+}
+.quality-inner__text{
+  font-size: 14px;
+  line-height: 24px;
+}
+.sub-img{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: $blue;
+  margin-top: 16px;
+}
+// /quality
+
+//farms
+.farms{
+  background-color:$ice;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 30px 0;
+  padding-bottom: 30px;
+  &:before{
+    content: '';
+    background-image: url(../img/map.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+  }
+}
+.farms-inner{
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4,1fr);
+}
+.farms-inner__item{
+  background-color: $white;
+  border-radius: 10px;
+  padding: 15px 30px 28px 18px;
+  z-index: 3;
+}
+.farms__item-subtitle{
+  font-size: 13px;
+  line-height: 20px;
+}
+.farms__item-title{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: $blue;
+}
+// /farms
+
+// ready-products
+.ready-products{
+  background-image: url(../img/ice_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+// /ready-products
+
+// receipes
+.receipes{
+  background-color: $ice;
+  text-align: center;
+  padding-bottom: 70px;
+}
+img{
+  margin: 0;
+}
+.receipes__item {
+  display: inline-block;
+  color: $black;
+  text-decoration: none;
+  box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
+  border-radius: 10px;
+  transition: transform 0.25s ease;
+  img{
+    display: block;
+    width:100%;
+  }
+  &:hover {
+    transform: scale(1.001) translateY(-4px);
+  }
+}
+.receipes-inner{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50px;
+}
+.receipes__text{
+  padding: 18px 30px 30px 30px;
+  background-color: $white;
+}
+.receipes-title{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: $blue;
+  margin-bottom: 13px;
+}
+.receipes-subtitle{
+  font-size: 13px;
+  line-height: 24px;
+}
+// /receipes
+
+//trour
+.trout{
+  background: url(../img/trout-bg.jpg) 50% 50% / cover no-repeat;
+  padding-bottom: 80px;
+}
+.trout-text{
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+}
+// /trout
+
+// markets
+.markets-inner{
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(2,1fr);
+}
+.markets__text{
+  font-size: 14px;
+  line-height: 24px;
+}
+// /markets
+
+// news
+.news-inner{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 30px;
+  padding-bottom: 80px;
+}
+.news-item{
+  background-color: $ice;
+  padding: 25px 25px 30px 25px;
+}
+.news-item__title{
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 23px;
+  color: $blue;
+}
+.news-item__text{
+  font-size: 14px;
+  line-height: 24px;
+}
+// /news
+
+//footer
+.footer{
+  background-color: $ice;
+  padding: 45px 0;
+}
+
+.footer-inner{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 100px;
+}
+.footer-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-name{
+  font-size: 20px;
+  line-height: 19px;
+  color: $blue;
+  font-weight: 900;
+}
+.kosher-name{
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 30px;
+  color: #000000;
+}
+.copyright{
+  font-size: 13px;
+  line-height: 30px;
+}
+// /footer
+
+.hamburger-menu{
+  display: none;
+}
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+
+  width: 26px;
+  height: 26px;
+
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: $blue;
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 9px 9px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

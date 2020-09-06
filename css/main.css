@@ -1,0 +1,649 @@
+@charset "UTF-8";
+/* line 9, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.title-h3 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  padding: 50px 0 12px 0;
+  color: #00519C;
+}
+
+/* line 17, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 21, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+a.btn-1 {
+  display: block;
+  background-color: #00519C;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 11px 34px;
+  border-radius: 23px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+/* line 34, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+a.btn-1:hover {
+  background-color: #fff;
+  color: #00519C;
+  transform: translateY(-3px);
+}
+
+/* line 40, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.subtitle-h3 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 25px;
+  z-index: 10;
+}
+
+/* line 49, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.wrapper {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 56, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 62, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.header {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 35px;
+}
+
+/* line 69, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 72, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.nav-list__item {
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  transition: 0.3s;
+}
+
+/* line 78, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.nav-list__item:first-child {
+  margin-left: 0;
+}
+
+/* line 81, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.nav-list__item:hover {
+  transform: translateY(-1px);
+}
+
+/* line 86, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.nav-link {
+  color: #00519C;
+  text-decoration: none;
+}
+
+/* line 90, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.first-page {
+  color: #00519C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
+/* line 99, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.logo-text h1 {
+  font-size: 28px;
+  line-height: 27px;
+  font-weight: 900;
+}
+
+/* line 104, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.h1-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* line 109, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.tagline {
+  margin-top: 150px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+/* line 117, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.main-products {
+  background-image: url(../img/ice_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+/* line 123, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.block-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+/* line 128, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.block-product__item {
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 35, 126, 0.06);
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+/* line 138, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.block-product__item:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.13), 0 10px 10px rgba(0, 0, 0, 0.01);
+}
+
+/* line 143, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.product-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #00519C;
+  max-width: 210px;
+}
+
+/* line 151, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.btn-view {
+  margin-top: 35px;
+}
+
+/* line 156, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.brochures {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+/* line 160, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.vector {
+  position: relative;
+  display: inline-block;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+/* line 166, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.vector::before,
+.vector::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/Vector.png);
+  display: block;
+  width: 51px;
+  height: 6px;
+  top: 73px;
+}
+
+/* line 176, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.vector::before {
+  right: 0;
+}
+
+/* line 179, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.vector::after {
+  left: 0;
+}
+
+/* line 182, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.brochures-inner {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+}
+
+/* line 188, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 193, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.btn-2 {
+  display: block;
+  border: 1px solid #1C75B7;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #00519C;
+  padding: 12px 20px 8px 16px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* line 206, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.btn-2::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/book.png);
+  display: block;
+  width: 32px;
+  height: 25px;
+  display: flex;
+  top: 10px;
+}
+
+/* line 217, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.btn-text {
+  margin-left: 50px;
+}
+
+/* line 223, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.quality {
+  background-color: #EDF8FF;
+  margin-bottom: 40px;
+}
+
+/* line 227, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.quality-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 60px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* line 236, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.quality-inner__text {
+  grid-column: 3/5;
+}
+
+/* line 239, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.quality-img__item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 243, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.quality-inner__img {
+  display: flex;
+}
+
+/* line 246, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.asc-img {
+  width: 181px;
+  height: 83px;
+}
+
+/* line 250, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.msc-img {
+  width: 181px;
+  height: 83px;
+}
+
+/* line 254, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.quality-inner__text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 258, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.sub-img {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #00519C;
+  margin-top: 16px;
+}
+
+/* line 268, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.farms {
+  background-color: #EDF8FF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 30px 0;
+  padding-bottom: 30px;
+}
+
+/* line 275, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.farms:before {
+  content: '';
+  background-image: url(../img/map.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+/* line 285, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.farms-inner {
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* line 291, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.farms-inner__item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 30px 28px 18px;
+  z-index: 3;
+}
+
+/* line 297, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.farms__item-subtitle {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* line 301, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.farms__item-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #00519C;
+}
+
+/* line 310, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.ready-products {
+  background-image: url(../img/ice_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+/* line 319, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes {
+  background-color: #EDF8FF;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+/* line 324, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+img {
+  margin: 0;
+}
+
+/* line 327, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes__item {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
+  border-radius: 10px;
+  transition: transform 0.25s ease;
+}
+
+/* line 334, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes__item img {
+  display: block;
+  width: 100%;
+}
+
+/* line 338, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes__item:hover {
+  transform: scale(1.001) translateY(-4px);
+}
+
+/* line 342, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes-inner {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+/* line 348, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes__text {
+  padding: 18px 30px 30px 30px;
+  background-color: #fff;
+}
+
+/* line 352, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00519C;
+  margin-bottom: 13px;
+}
+
+/* line 359, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.receipes-subtitle {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+/* line 366, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.trout {
+  background: url(../img/trout-bg.jpg) 50% 50%/cover no-repeat;
+  padding-bottom: 80px;
+}
+
+/* line 370, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.trout-text {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+}
+
+/* line 378, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.markets-inner {
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* line 384, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.markets__text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 391, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.news-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding-bottom: 80px;
+}
+
+/* line 397, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.news-item {
+  background-color: #EDF8FF;
+  padding: 25px 25px 30px 25px;
+}
+
+/* line 401, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.news-item__title {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 23px;
+  color: #00519C;
+}
+
+/* line 407, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.news-item__text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 414, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.footer {
+  background-color: #EDF8FF;
+  padding: 45px 0;
+}
+
+/* line 419, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
+/* line 424, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.footer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 429, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.logo-name {
+  font-size: 20px;
+  line-height: 19px;
+  color: #00519C;
+  font-weight: 900;
+}
+
+/* line 435, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.kosher-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 30px;
+  color: #000000;
+}
+
+/* line 441, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.copyright {
+  font-size: 13px;
+  line-height: 30px;
+}
+
+/* line 447, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.hamburger-menu {
+  display: none;
+}
+
+/* line 450, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+#menu__toggle {
+  opacity: 0;
+}
+
+/* line 454, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+/* line 457, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+/* line 461, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* line 465, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+/* line 470, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* line 484, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #00519C;
+  transition-duration: .25s;
+}
+
+/* line 494, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+
+/* line 498, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+/* line 503, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  transition-duration: .25s;
+}
+
+/* line 519, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.menu__item {
+  display: block;
+  padding: 9px 9px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+
+/* line 527, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/main.scss */
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+/*# sourceMappingURL=main.css.map */

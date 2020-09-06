@@ -1,0 +1,165 @@
+@media (max-width: 1200px) {
+  .block-product {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 992px) {
+  .block-product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .block-product__item:nth-child(even){
+    display: none;
+  }
+  .quality-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .markets-img{
+    display: none;
+  }
+  .markets-inner{
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 884px) {
+  .nav-list {
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+  }
+  .first__item{
+    margin-top: 50px;
+  }
+  .quality-inner__text {
+    display: none;
+  }
+  .quality-img__item {
+    align-items: center;
+  }
+  .sub-img {
+    max-width: 190px;
+  }
+  .footer-social-img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .farms-inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .farms-inner__item:nth-child(even){
+    display: none;
+  }
+  .farms-inner__item{
+    padding: 10px 15px 13px 15px;
+  }
+  .block-product{
+    grid-gap: 15px;
+  }
+  .footer-inner{
+    grid-gap: 30px;
+  }
+  .text-2{
+    display: none;
+  }
+  .kosher-name,.logo-name{
+    display: none;
+  }
+  .receipes-inner{
+    grid-gap: 25px;
+  }
+  .trout-text{
+    font-size: 15px;
+  }
+}
+@media (max-width: 696px) {
+  .btn-2{
+    &::before{
+      top: 22px;
+    }
+  }
+  nav img{
+    width: 65px;
+    height: 61px;
+  }
+  .receipes-subtitle{
+    display: none;
+  }
+  .tagline{
+    display: none;
+  }
+}
+@media (max-width: 531px) {
+  .block-product{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .title-h3{
+    font-size: 30px;
+  }
+  .quality-inner{
+    grid-gap: 30px;
+  }
+  .receipes-inner{
+    grid-template-columns: 1fr;
+  }
+  .receipes__text{
+    padding: 15px 20px 5px 20px;
+  }
+  .farms-inner{
+    grid-gap: 15px;
+  }
+  .brochures-inner{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .btn-2{
+    font-size: 15px;
+  }
+  .btn-2:before{
+    top: 10px;
+  }
+  .vector::before, .vector::after{
+    top: 70px;
+  }
+  .news-inner{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+}
+@media (max-width: 480px) {
+  .footer-inner{
+    grid-gap: 15px;
+  }
+  .footer-logo{
+    margin-right: 10px;
+  }
+  .copyright{
+    font-size: 12px;
+  }
+  .farms-inner{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .farms-inner__item:nth-child(even){
+    display: none;
+  }
+
+
+}
+@media (max-width: 420px) {
+  .quality-inner{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 376px) {
+  .vector::before, .vector::after{
+    top: 92px;
+  }
+  .vector::before{
+    right: 10px;
+  }
+  .vector::after{
+    left: 10px;
+  }
+}
+

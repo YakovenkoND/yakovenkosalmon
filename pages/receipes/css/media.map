@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "media.css",
+	"sources": [
+		"../#source/media.scss"
+	],
+	"sourcesContent": [
+		"@media (max-width: 1200px) {\r\n  .name-logo {\r\n    display: none;\r\n  }\r\n  .block-product {\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 15px;\r\n  }\r\n}\r\n@media (max-width: 992px) {\r\n  .nav-list{\r\n    display: none;\r\n  }\r\n  .hamburger-menu{\r\n    display: block;\r\n  }\r\n  .first__item {\r\n    margin-top: 50px;\r\n  }\r\n  .block-product{\r\n    grid-template-columns: repeat(2,1fr);\r\n  }\r\n  .footer-social-img{\r\n    margin-right: 10px;\r\n    margin-bottom: 10px;\r\n  }\r\n  .footer-social {\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n}\r\n@media (max-width: 830px) {\r\n  .logo{\r\n    display: none;\r\n  }\r\n  .nav-list{\r\n    display: none;\r\n  }\r\n  .hamburger-menu{\r\n    display: block;\r\n  }\r\n  .first__item {\r\n    margin-top: 50px;\r\n  }\r\n}\r\n@media (max-width: 767px) {\r\n  .cols-inner {\r\n    grid-gap: 30px;\r\n  }\r\n  .title-h3{\r\n    font-size: 30px;\r\n  }\r\n  .footer-inner{\r\n    grid-gap: 30px;\r\n  }\r\n  .kosher-name,.logo-name{\r\n    display: none;\r\n  }\r\n}\r\n@media (max-width: 480px) {\r\n  .footer-inner{\r\n    grid-gap: 15px;\r\n  }\r\n  .footer-logo{\r\n    margin-right: 10px;\r\n  }\r\n  .copyright{\r\n    font-size: 12px;\r\n  }\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,MAAM,EAAE,SAAS,EAAE,MAAM;;EACvB,AAAA,UAAU,CAAC;IACT,OAAO,EAAE,IAAI,GACd;;EACD,AAAA,cAAc,CAAC;IACb,qBAAqB,EAAE,cAAc;IACrC,QAAQ,EAAE,IAAI,GACf;;AAEH,MAAM,EAAE,SAAS,EAAE,KAAK;;EACtB,AAAA,SAAS,CAAA;IACP,OAAO,EAAE,IAAI,GACd;;EACD,AAAA,eAAe,CAAA;IACb,OAAO,EAAE,KAAK,GACf;;EACD,AAAA,YAAY,CAAC;IACX,UAAU,EAAE,IAAI,GACjB;;EACD,AAAA,cAAc,CAAA;IACZ,qBAAqB,EAAE,cAAa,GACrC;;EACD,AAAA,kBAAkB,CAAA;IAChB,YAAY,EAAE,IAAI;IAClB,aAAa,EAAE,IAAI,GACpB;;EACD,AAAA,cAAc,CAAC;IACb,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM,GACvB;;AAEH,MAAM,EAAE,SAAS,EAAE,KAAK;;EACtB,AAAA,KAAK,CAAA;IACH,OAAO,EAAE,IAAI,GACd;;EACD,AAAA,SAAS,CAAA;IACP,OAAO,EAAE,IAAI,GACd;;EACD,AAAA,eAAe,CAAA;IACb,OAAO,EAAE,KAAK,GACf;;EACD,AAAA,YAAY,CAAC;IACX,UAAU,EAAE,IAAI,GACjB;;AAEH,MAAM,EAAE,SAAS,EAAE,KAAK;;EACtB,AAAA,WAAW,CAAC;IACV,QAAQ,EAAE,IAAI,GACf;;EACD,AAAA,SAAS,CAAA;IACP,SAAS,EAAE,IAAI,GAChB;;EACD,AAAA,aAAa,CAAA;IACX,QAAQ,EAAE,IAAI,GACf;;EACD,AAAA,YAAY,EAAC,UAAU,CAAA;IACrB,OAAO,EAAE,IAAI,GACd;;AAEH,MAAM,EAAE,SAAS,EAAE,KAAK;;EACtB,AAAA,aAAa,CAAA;IACX,QAAQ,EAAE,IAAI,GACf;;EACD,AAAA,YAAY,CAAA;IACV,YAAY,EAAE,IAAI,GACnB;;EACD,AAAA,UAAU,CAAA;IACR,SAAS,EAAE,IAAI,GAChB"
+}
